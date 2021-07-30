@@ -1,0 +1,15 @@
+// signup
+@use '../1-helper/variables' as *;
+
+.signup-border {
+  padding: 25px 15px;
+  border: 3px solid $text-prmy-color;
+  border-radius: 10px;
+}
+
+.signup-text__caption {
+  margin: 20px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}

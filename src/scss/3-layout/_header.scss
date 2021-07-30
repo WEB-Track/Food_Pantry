@@ -1,0 +1,17 @@
+// header
+@use '../1-helper/variables' as *;
+
+.header__inner {
+  background: $backgrnd-prmy-color;
+  margin: 0 auto;
+  padding: 0;
+  height: 90px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.site-header {
+  @media (max-width: 576px) {
+    font-size: 1.5rem;
+  }
+}

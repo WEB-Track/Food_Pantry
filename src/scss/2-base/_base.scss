@@ -1,0 +1,23 @@
+// base info
+@use '../1-helper/variables' as *;
+
+body {
+  background: $backgrnd-prmy-color;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: $link-prmy-color;
+  text-decoration: none;
+}
+
+label {
+  color: $text-prmy-color;
+  font-weight: 600;
+}
+
+a:hover {
+  color: $backgrnd-2nd-color;
+}

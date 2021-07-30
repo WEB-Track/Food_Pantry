@@ -1,0 +1,23 @@
+// hero
+@use '../1-helper/variables' as *;
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-header {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  top: 42%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: $backgrnd-2nd-color;
+  padding-left: 0.1rem;
+  padding-right: 1rem;
+
+  @media (max-width: 576px) {
+    font-size: 0.8rem;
+  }
+}

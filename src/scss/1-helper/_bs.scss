@@ -1,0 +1,15 @@
+// Bootstrap
+
+@use './variables' as *;
+
+.bs-bg-primary1 {
+  background-color: $backgrnd-prmy-color;
+}
+
+.bs-margin-15 {
+  margin: 15px;
+}
+
+.bs-txt-bold {
+  font-weight: 600;
+}
