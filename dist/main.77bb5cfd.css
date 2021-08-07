@@ -10,6 +10,10 @@
   font-weight: 600;
 }
 
+.bs-txt-bold2 {
+  font-weight: bold;
+}
+
 .color-prmy-txt {
   color: #865075;
 }
@@ -39,11 +43,13 @@ a:hover {
   background: #fdba12;
   margin: 0 auto;
   padding: 0;
-  height: 90px;
+  height: 70px;
   text-align: center;
-  margin-bottom: 25px;
 }
 
+.site-header {
+  margin-top: 60px;
+}
 @media (max-width: 576px) {
   .site-header {
     font-size: 1.5rem;
@@ -58,7 +64,6 @@ a:hover {
 .hero-header {
   position: absolute;
   text-align: center;
-  z-index: 1;
   top: 42%;
   font-size: 1.8rem;
   font-weight: bold;
@@ -74,7 +79,7 @@ a:hover {
 
 .about-content {
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 500;
   padding: 5px 10%;
   text-align: justify;
 }
@@ -90,6 +95,17 @@ a:hover {
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
+  padding-top: 55px;
+}
+
+.text-bold {
+  font-weight: 600;
+  color: #865075;
+}
+
+.text-bold:hover {
+  font-weight: bold;
+  color: #f5f4f5;
 }
 
 .btn-primary1 {
