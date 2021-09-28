@@ -1,5 +1,4 @@
 // base info
-@use '../1-helper/variables' as *;
 
 body {
   background: $backgrnd-prmy-color;
@@ -19,5 +18,5 @@ label {
 }
 
 a:hover {
-  color: $backgrnd-2nd-color;
+  color: $link-2nd-color;
 }

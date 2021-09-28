@@ -6,16 +6,22 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "sass": "sass --watch src/assets/scss:src/assets/css",
+    "watch": "sass --watch src/assets/scss:src/assets/css",
+    "sass": "mk-bs && sass src/assets/scss:src/assets/css",
     "md-dist": "mkdir dist",
     "md-assets": "cd dist && mkdir assets",
     "md-css": "cd dist/assets && mkdir css",
     "md-img": "cd dist/assets && mkdir images",
-    "cpy-html": "cp -r ./src/*.html ./dist",
-    "cpy-css": "cp -r ./src/assets/css/*.* ./dist/assets/css",
-    "cpy-img": "cp -r ./src/assets/images/*.* ./dist/assets/images",
-    "new-dir": "npm run md-dist && npm run md-assets && npm run md-css && npm run md-img",
-    "copy-files": "npm run cpy-html && npm run cpy-css && npm run cpy img"
+    "md-sparty": "cd dist/assets && mkdir secondparty",
+    "md-bs": "cd dist/assets/secondparty && mkdir bootstrap",
+    "cp-html": "cp -r ./src/*.html ./dist",
+    "cp-css": "cp -r ./src/assets/css/*.* ./dist/assets/css",
+    "cp-img": "cp -r ./src/assets/images/*.* ./dist/assets/img",
+    "cp-bs": "cp -r ./node_modules/bootstrap/scss/bootstrap.scss ./dist/assets/secondparty/bootstrap/ && cp -r ./node_modules/jquery/dist/jquery.js ./dist/assets/secondparty/bootstrap/ && cp -r ./node_modules/bootstrap/dist/js/bootstrap.bundle.js ./dist/assets/secondparty/bootstrap/",
+    "mk-dirs": "npm run md-dist && npm run md-assets && npm run md-css && npm run md-img",
+    "mk-bs": "npm run md-sparty && npm run md-bs",
+    "cp-files": "npm run cp-html && npm run cp-css && npm run cp-img"
+
   },
   "keywords": [],
   "author": "",

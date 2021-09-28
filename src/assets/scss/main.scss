@@ -1,15 +1,20 @@
 // helper
-@use './1-helper/bs';
-@use './1-helper/color';
+@import "./1-helper/variables";
+@import "./1-helper/bs";
+@import "./1-helper/color";
+
+// Custom.scss
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 // base
-@use './2-base/base';
+@import "./2-base/base";
 // layout
-@use './3-layout/header';
-@use './3-layout/hero';
-@use './3-layout/layout';
-@use './3-layout/text';
-@use './3-layout/btn';
-@use './3-layout/signup';
-@use './3-layout/footer';
+@import "./3-layout/header";
+@import "./3-layout/hero";
+@import "./3-layout/layout";
+@import "./3-layout/text";
+@import "./3-layout/btn";
+@import "./3-layout/signup";
+@import "./3-layout/footer";
 // module
-@use './4-module/module';
+@import "./4-module/module";

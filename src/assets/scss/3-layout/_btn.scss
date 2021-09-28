@@ -1,11 +1,13 @@
 // button
 
-@use '../1-helper/variables' as *;
-
 .btn-primary1 {
   background-color: $text-prmy-color;
 }
 
 .btn-text {
   color: $backgrnd-2nd-color;
+}
+
+.btn-primary1:hover {
+  background-color: $link-2nd-color;
 }
