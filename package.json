@@ -17,10 +17,13 @@
     "cp-html": "cp -r ./src/*.html ./dist",
     "cp-css": "cp -r ./src/assets/css/*.* ./dist/assets/css",
     "cp-img": "cp -r ./src/assets/images/*.* ./dist/assets/img",
-    "cp-bs": "cp -r ./node_modules/bootstrap/scss/bootstrap.scss ./dist/assets/secondparty/bootstrap/ && cp -r ./node_modules/jquery/dist/jquery.js ./dist/assets/secondparty/bootstrap/ && cp -r ./node_modules/bootstrap/dist/js/bootstrap.bundle.js ./dist/assets/secondparty/bootstrap/",
     "mk-dirs": "npm run md-dist && npm run md-assets && npm run md-css && npm run md-img",
-    "mk-bs": "npm run md-sparty && npm run md-bs",
-    "cp-files": "npm run cp-html && npm run cp-css && npm run cp-img"
+    "cp-files": "npm run cp-html && npm run cp-css && npm run cp-img",
+    "s-md-sparty": "cd src/assets && mkdir secondparty",
+    "s-md-bs": "cd src/assets/secondparty && mkdir bootstrap",
+    "s-mk-bs": "npm run s-md-sparty && npm run s-md-bs",
+    "s-cp-bs": "cp -r ./node_modules/jquery/dist/jquery.js ./src/assets/secondparty/bootstrap/ && cp -r ./node_modules/bootstrap/dist/js/bootstrap.bundle.js ./src/assets/secondparty/bootstrap/",
+    "dis-cp-sparty": "cp -r ./src/assets/secondparty/bootstrap/*.* ./dist/assets/secondparty/bootstrap/"
 
   },
   "keywords": [],
