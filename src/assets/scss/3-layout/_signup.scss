@@ -1,9 +1,39 @@
 // signup
 
+.signup {
+  background-image: url(../images/veggie.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 10px;
+}
+
+.signup-container {
+  padding: 45px 8%;
+}
+
+.signup-header {
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.signup-background {
+  background-color: rgba(265, 265, 265, 0.3);
+  padding: 8px 2%;
+  border-radius: 30px;
+}
+
 .signup-border {
   padding: 25px 15px;
   border: 3px solid $text-prmy-color;
   border-radius: 10px;
+}
+
+.signup-form {
+  font-weight: 700;
 }
 
 .signup-text__caption {

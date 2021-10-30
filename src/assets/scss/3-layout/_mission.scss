@@ -1,0 +1,31 @@
+// mission
+
+.mission {
+  background-image: url(../images/goods.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 10px;
+}
+
+.mission-statement-container {
+  padding: 5px 8%;
+}
+
+.mission-statement {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 8px 2%;
+  border-radius: 30px;
+}
+.mission-vision-statement {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 8px 2%;
+  border-radius: 30px;
+}
