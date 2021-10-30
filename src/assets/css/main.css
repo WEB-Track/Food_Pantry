@@ -10459,7 +10459,7 @@ header {
 }
 
 .signup-background {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 8px 2%;
   border-radius: 30px;
 }
@@ -10563,19 +10563,40 @@ header {
 }
 
 .btn-primary1 {
-  background-color: #240a1b;
+  background-color: var(--light);
 }
 
 .btn-text {
-  color: #f5f4f5;
+  color: var(--secondary);
 }
 
 .btn-primary1:hover {
-  background-color: #eed996;
+  background-color: #fad456;
 }
 
 .navbar-wrapper {
   display: flex;
+}
+
+.navbar-background {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 6px 2%;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.navbar-border {
+  border-radius: 25px;
+}
+
+.navbar-text-color {
+  color: var(--light) !important;
+  font-weight: 600;
+}
+
+.navbar-text-color:hover {
+  color: var(--light);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .text-header2-1 {

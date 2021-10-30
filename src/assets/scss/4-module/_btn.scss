@@ -1,11 +1,11 @@
 // button
 
 .btn-primary1 {
-  background-color: $text-prmy-color;
+  background-color: var(--light);
 }
 
 .btn-text {
-  color: $backgrnd-2nd-color;
+  color: var(--secondary);
 }
 
 .btn-primary1:hover {
