@@ -10312,16 +10312,15 @@ header {
 }
 
 .hero {
-  background-image: url(../images/helping.png);
-  background-repeat: no-repeat;
+  background: url(../images/helping.png) no-repeat fixed center;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  z-index: -2;
 }
 
 .hero-wrapper {
   margin-top: auto;
   margin-bottom: auto;
+  padding: 5px 8%;
 }
 
 .hero-image {
@@ -10330,24 +10329,24 @@ header {
 }
 
 .hero-header {
-  padding-top: 60px;
-  padding-bottom: 130px;
-  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: justify;
   top: 42%;
   font-size: 1.8rem;
   font-weight: bold;
   color: #f5f4f5;
-  padding-left: 0.1rem;
+  padding-left: 1rem;
   padding-right: 1rem;
 }
 @media (max-width: 576px) {
   .hero-header {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
 .hero-header-quote {
-  padding-bottom: 180px;
+  padding-bottom: 130px;
   font-style: italic;
   text-align: center;
   font-size: 1.8rem;
@@ -10357,6 +10356,11 @@ header {
   padding-right: 1rem;
   margin: 0;
 }
+@media (max-width: 576px) {
+  .hero-header-quote {
+    font-size: 1rem;
+  }
+}
 
 .about {
   background-image: url(../images/helping.png);
@@ -10364,7 +10368,14 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 10px;
+  padding: 50px 10px 29px;
+}
+
+.about-header2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 35px 0 20px;
 }
 
 .about-header {
@@ -10400,7 +10411,9 @@ header {
   text-align: justify;
   background-color: rgba(0, 0, 0, 0.25);
   padding: 8px 2%;
-  border-radius: 30px;
+  border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
 }
 
 .mission-vision-statement {
@@ -10409,7 +10422,9 @@ header {
   text-align: justify;
   background-color: rgba(0, 0, 0, 0.25);
   padding: 8px 2%;
-  border-radius: 30px;
+  border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
 }
 
 .pickup-wrapper {
@@ -10435,7 +10450,9 @@ header {
 .pickup-background {
   background-color: rgba(0, 0, 0, 0.25);
   padding: 8px 2%;
-  border-radius: 30px;
+  border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
 }
 
 .signup {
@@ -10461,7 +10478,9 @@ header {
 .signup-background {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 8px 2%;
-  border-radius: 30px;
+  border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
 }
 
 .signup-border {
@@ -10508,7 +10527,9 @@ header {
 .volunteer-background {
   background-color: rgba(0, 0, 0, 0.25);
   padding: 8px 2%;
-  border-radius: 30px;
+  border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
 }
 
 .footer {
@@ -10534,7 +10555,9 @@ header {
 .footer-background {
   background-color: rgba(0, 0, 0, 0.25);
   padding: 8px 2%;
-  border-radius: 30px;
+  border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
 }
 
 .footer-name {
@@ -10566,12 +10589,47 @@ header {
   background-color: var(--light);
 }
 
+.btn-primary1:hover {
+  background-color: orange;
+}
+
 .btn-text {
   color: var(--secondary);
 }
 
-.btn-primary1:hover {
-  background-color: #fad456;
+.btn-top-container {
+  display: flex;
+}
+
+.btn-top {
+  font-weight: 500;
+  padding: 3px 15px;
+  letter-spacing: 4px;
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+}
+
+.btn-top-bg--light {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-top-bg--dark {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.btn-top:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-top-txt {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.btn-top-txt:hover {
+  color: #240a1b;
+  text-decoration: none;
 }
 
 .navbar-wrapper {
@@ -10586,7 +10644,9 @@ header {
 }
 
 .navbar-border {
-  border-radius: 25px;
+  border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
 }
 
 .navbar-text-color {
@@ -10610,7 +10670,7 @@ header {
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
-  padding-top: 55px;
+  padding: 35px 0 20px;
 }
 
 .text-bold {

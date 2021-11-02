@@ -1,16 +1,15 @@
 // hero
 
 .hero {
-  background-image: url(../images/helping.png);
-  background-repeat: no-repeat;
+  background: url(../images/helping.png) no-repeat fixed center;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  z-index: -2;
 }
 
 .hero-wrapper {
   margin-top: auto;
   margin-bottom: auto;
+  padding: 5px 8%;
 }
 
 .hero-image {
@@ -19,23 +18,23 @@
 }
 
 .hero-header {
-  padding-top: 60px;
-  padding-bottom: 130px;
-  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: justify;
   top: 42%;
   font-size: 1.8rem;
   font-weight: bold;
   color: $backgrnd-2nd-color;
-  padding-left: 0.1rem;
+  padding-left: 1rem;
   padding-right: 1rem;
 
   @media (max-width: 576px) {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
 .hero-header-quote {
-  padding-bottom: 180px;
+  padding-bottom: 130px;
   font-style: italic;
   text-align: center;
   font-size: 1.8rem;
@@ -44,4 +43,8 @@
   padding-left: 0.1rem;
   padding-right: 1rem;
   margin: 0;
+
+  @media (max-width: 576px) {
+    font-size: 1rem;
+  }
 }

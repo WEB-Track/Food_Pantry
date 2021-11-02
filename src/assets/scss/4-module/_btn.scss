@@ -4,10 +4,45 @@
   background-color: var(--light);
 }
 
+.btn-primary1:hover {
+  background-color: orange;
+}
+
 .btn-text {
   color: var(--secondary);
 }
 
-.btn-primary1:hover {
-  background-color: $link-2nd-color;
+.btn-top-container {
+  display: flex;
+}
+
+.btn-top {
+  font-weight: 500;
+  padding: 3px 15px;
+  letter-spacing: 4px;
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+}
+
+.btn-top-bg--light {
+  background-color: $light3;
+}
+
+.btn-top-bg--dark {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.btn-top:hover {
+  background-color: $light2;
+}
+
+.btn-top-txt {
+  color: $light;
+}
+
+.btn-top-txt:hover {
+  color: $secondary;
+  text-decoration: none;
 }

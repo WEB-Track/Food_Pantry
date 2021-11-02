@@ -12,7 +12,9 @@
 }
 
 .navbar-border {
-  border-radius: 25px;
+  border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
 }
 
 .navbar-text-color {

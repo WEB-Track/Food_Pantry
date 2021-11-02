@@ -23,5 +23,7 @@
 .pickup-background {
   background-color: rgba(0, 0, 0, 0.25);
   padding: 8px 2%;
-  border-radius: 30px;
+  border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
 }
