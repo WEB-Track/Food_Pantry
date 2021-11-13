@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daily Bread Food Pantry</title>
+    <title>Daily Bread Ministry Food Pantry</title>
     <script
       type="module"
       src="./assets/secondparty/bootstrap/jquery.js"
@@ -16,370 +16,455 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body id="home">
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-12">
-          <header class="header" id="header">
-            <div class="header__inner">
-              <div class="fixed-top">
-                <nav
-                  class="navbar navbar-expand-lg navbar-light bs-bg-primary1"
+    <header class="header" id="header">
+      <h1 class="header-main text-center text-light">
+        SJSB Daily Bread Ministry Food Pantry
+      </h1>
+      <div class="navbar-wrapper justify-content-center">
+        <nav
+          class="
+            navbar
+            navbar-expand-lg
+            navbar-text-color
+            navbar-background
+            navbar-border
+          "
+        >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link navbar-text-color" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle navbar-text-color"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
                 >
-                  <!-- Hamburger Menu -->
-                  <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
+                  About
+                </a>
+                <div
+                  class="dropdown-menu navbar-background"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item navbar-text-color" href="#about"
+                    >Some History</a
                   >
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                      <li class="nav-item text-bold">
-                        <a class="nav-link text-reset" href="#home">Home</a>
-                      </li>
-                      <li class="nav-item text-bold">
-                        <a class="nav-link text-reset" href="#about">About</a>
-                      </li>
-                      <li class="nav-item text-bold">
-                        <a class="nav-link text-reset" href="#pickup"
-                          >Pick-up Date</a
-                        >
-                      </li>
-                      <li class="nav-item text-bold">
-                        <a class="nav-link text-reset" href="#signup">Enroll</a>
-                      </li>
-                      <li class="nav-item text-bold">
-                        <a class="nav-link text-reset" href="#volunteer"
-                          >Volunteer</a
-                        >
-                      </li>
-                      <li class="nav-item text-bold">
-                        <a class="nav-link text-reset" href="#footer"
-                          >Contact Info</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-              </div>
-              <h1 class="site-header color-prmy-txt">
-                SJSB Daily Bread Food Pantry
-              </h1>
-            </div>
-          </header>
-        </div>
+                  <a class="dropdown-item navbar-text-color" href="#pantry"
+                    >Pantry History</a
+                  >
+                  <a class="dropdown-item navbar-text-color" href="#mission"
+                    >Mission</a
+                  >
+                  <a class="dropdown-item navbar-text-color" href="#vision"
+                    >Vision</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-text-color" href="#pickup"
+                  >Distribution Dates</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-text-color" href="#signup"
+                  >Enrollment</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-text-color" href="#volunteer"
+                  >Volunteer</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </div>
-    <!-- end header container -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <section class="hero" id="hero">
-            <h2 class="hero-header">
-              For I was hungry and you gave me something to eat, I was thirsty
-              and you gave me something to drink, I was a stranger and you
-              invited me in.
-            </h2>
-            <div class="hero__image-cont">
-              <img
-                class="hero-image"
-                src="./assets/images/Pantry.jpg"
-                alt="Food Pantry Boxes"
-              />
-            </div>
-          </section>
-        </div>
+    </header>
+
+    <section class="hero" id="hero">
+      <div class="hero-wrapper">
+        <p class="hero-header text-light">
+          For I was hungry and you gave me something to eat, I was thirsty and
+          you gave me something to drink, I was a stranger and you invited me
+          in.
+        </p>
+        <p class="hero-header-quote">Matthew 25:35</p>
       </div>
-    </div>
+    </section>
     <!-- end header container -->
     <section class="about" id="about">
-      <h2 class="text-header2 color-prmy-txt module--header-adj">
-        Some History
-      </h2>
-      <p class="about-content color-prmy-txt">
+      <h2 class="about-header text-light module--header-adj">Some History</h2>
+      <p class="about-content text-light">
         In 1867 families began worshiping in homes in the village. Later they
         broke ground on West Street for a church building in 1868.
       </p>
-      <p class="about-content color-prmy-txt">
+      <p class="about-content text-light">
         In 1894, land was purchased and construction began on Main Street by
         generations of immigrants from Ireland, Italy and other European
         nations. The church building was dedicated in 1895.
       </p>
-      <p class="about-content color-prmy-txt">
+      <p class="about-content text-light">
         In 1970 the church located at 100 North Main Street was destroyed by a
         fire. They started celebrating mass in the school located at 245 North
         Main Street near the corner of Sneden Place West.
       </p>
-      <p class="about-content color-prmy-txt">
+      <p class="about-content text-light">
         In 1995 the new church was completed, the first mass was celebrated on
         September 30, 1995. Later that year on November 4, 1995, Cardinal John
         O’Conner, Archbishop of New York dedicated the church and altar.
       </p>
-      <p class="about-content color-prmy-txt">
+      <p class="about-content text-light">
         Since then the church has become more diverse with parishioners from 29
         countries, including the Caribbean, Central and South America, Mexico,
         as well as the Philippines and Nigeria.
       </p>
-      <h2 class="text-header2-1 color-prmy-txt">Food Pantry</h2>
-      <p class="about-content color-prmy-txt">
+      <h2 class="about-header2 text-light" id="pantry">Food Pantry</h2>
+      <p class="about-content text-light">
         In 2020 on November 23 the SJSB Daily Bread Food Pantry opened its doors
         for the first time, offering a Thanksgiving dinner for over 200
         families.
       </p>
+      <div class="btn-top-container justify-content-end">
+        <button class="btn-top btn-top-bg--light">
+          <a class="btn-top-txt" href="#">Top ^</a>
+        </button>
+      </div>
     </section>
-    <div class="container-fluid">
+    <section class="mission" id="mission">
+      <h3 class="mission-header text-header2 text-light">Mission Statement</h3>
+      <div class="mission-statement-container">
+        <p class="mission-statement text-light">
+          We parishioners of Saint Joseph-Saint Boniface recognizing that, God
+          has bestowed upon us many blessings. The Daily Bread Ministry Food
+          Pantry serves as a vehicle and instrument to share the great abundance
+          that God has showered on us with those who are in need within our
+          community. Food is shared with love and respect to those who come for
+          assistance. It is our intention that they receive not only food for
+          their physical hunger. We would also share generous portions of
+          kindness and grace to feed their spiritual and emotional hungers. We
+          believe the words of Jesus that this is one way we can respond
+          directly to God's love for us.
+        </p>
+      </div>
+      <h3 class="mission-vision text-header2 text-light" id="vision">
+        Our Vision
+      </h3>
+      <div class="mission-statement-container">
+        <p class="mission-vision-statement text-light">
+          We demonstrate the love of Jesus Christ by providing the loving,
+          compassionate distribution of food for the sustenance of those who are
+          hungry in our community. Our mission is to help those less fortunate
+          by providing food, promote the value of nutrition, increase
+          self-sufficiency and instill hope. We envision a community in which
+          everyone has access to sufficient nutritious food. In doing so, Daily
+          Bread Ministry Food Pantry helps to ensure that food relief has a more
+          meaningful and enduring impact.
+        </p>
+      </div>
+      <div class="btn-top-container justify-content-end">
+        <button class="btn-top btn-top-bg--dark">
+          <a class="btn-top-txt" href="#">Top ^</a>
+        </button>
+      </div>
+    </section>
+    <div class="container-fluid pickup-wrapper">
       <section class="pickup" id="pickup">
-        <h2 class="text-header2 color-prmy-txt">Pick-up time and dates</h2>
-        <div class="row justify-content-around color-prmy-txt bs-txt-bold">
-          <p class="col-3 text-center">Date</p>
-          <p class="col-3 text-center">Morning</p>
-          <p class="col-3 text-center">After Noon</p>
+        <div class="pickup-container">
+          <div class="pickup-background">
+            <h2 class="pickup-header text-light">Pick-up time and dates</h2>
+            <div class="row justify-content-around text-light bs-txt-bold">
+              <p class="col-3 text-center">Date</p>
+              <p class="col-3 text-center">Morning</p>
+              <p class="col-3 text-center">After Noon</p>
+            </div>
+            <div class="row justify-content-around text-light bs-txt-bold">
+              <p class="col-3 text-center">October 20, 2021</p>
+              <p class="col-3 text-center">10 AM - 12 PM</p>
+              <p class="col-3 text-center">4 PM - 6 PM</p>
+            </div>
+            <div class="row justify-content-around text-light bs-txt-bold">
+              <p class="col-3 text-center">November 17, 2021</p>
+              <p class="col-3 text-center">10 AM - 12 PM</p>
+              <p class="col-3 text-center">4 PM - 6 PM</p>
+            </div>
+            <div class="row justify-content-around text-light bs-txt-bold">
+              <p class="col-3 text-center">December 15, 2021</p>
+              <p class="col-3 text-center">10 AM - 12 PM</p>
+              <p class="col-3 text-center">4 PM - 6 PM</p>
+            </div>
+            <div class="row justify-content-around text-light bs-txt-bold">
+              <p class="col-3 text-center">January 19, 2022</p>
+              <p class="col-3 text-center">10 AM - 12 PM</p>
+              <p class="col-3 text-center">4 PM - 6 PM</p>
+            </div>
+            <div class="row justify-content-around text-light bs-txt-bold">
+              <p class="col-3 text-center">Febuary 16, 2022</p>
+              <p class="col-3 text-center">10 AM - 12 PM</p>
+              <p class="col-3 text-center">4 PM - 6 PM</p>
+            </div>
+            <div class="row justify-content-around text-light bs-txt-bold">
+              <p class="col-3 text-center">March 16, 2022</p>
+              <p class="col-3 text-center">10 AM - 12 PM</p>
+              <p class="col-3 text-center">4 PM - 6 PM</p>
+            </div>
+            <div class="row justify-content-around text-light bs-txt-bold">
+              <p class="col-3 text-center">April 20, 2022</p>
+              <p class="col-3 text-center">10 AM - 12 PM</p>
+              <p class="col-3 text-center">4 PM - 6 PM</p>
+            </div>
+            <div class="row justify-content-around text-light bs-txt-bold">
+              <p class="col-3 text-center">May 18, 2022</p>
+              <p class="col-3 text-center">10 AM - 12 PM</p>
+              <p class="col-3 text-center">4 PM - 6 PM</p>
+            </div>
+            <div class="row justify-content-around text-light bs-txt-bold">
+              <p class="col-3 text-center">June 15, 2022</p>
+              <p class="col-3 text-center">10 AM - 12 PM</p>
+              <p class="col-3 text-center">4 PM - 6 PM</p>
+            </div>
+            <div class="row justify-content-around text-light bs-txt-bold">
+              <p class="col-3 text-center">July 20, 2022</p>
+              <p class="col-3 text-center">10 AM - 12 PM</p>
+              <p class="col-3 text-center">4 PM - 6 PM</p>
+            </div>
+            <div class="row justify-content-around text-light bs-txt-bold">
+              <p class="col-3 text-center">August 17, 2022</p>
+              <p class="col-3 text-center">10 AM - 12 PM</p>
+              <p class="col-3 text-center">4 PM - 6 PM</p>
+            </div>
+            <div class="row justify-content-around text-light bs-txt-bold">
+              <p class="col-3 text-center">September 21, 2022</p>
+              <p class="col-3 text-center">10 AM - 12 PM</p>
+              <p class="col-3 text-center">4 PM - 6 PM</p>
+            </div>
+          </div>
         </div>
-        <div class="row justify-content-around color-prmy-txt bs-txt-bold">
-          <p class="col-3 text-center">October 20, 2021</p>
-          <p class="col-3 text-center">10 AM - 12 PM</p>
-          <p class="col-3 text-center">4 PM - 6 PM</p>
-        </div>
-        <div class="row justify-content-around color-prmy-txt bs-txt-bold">
-          <p class="col-3 text-center">November 17, 2021</p>
-          <p class="col-3 text-center">10 AM - 12 PM</p>
-          <p class="col-3 text-center">4 PM - 6 PM</p>
-        </div>
-        <div class="row justify-content-around color-prmy-txt bs-txt-bold">
-          <p class="col-3 text-center">December 15, 2021</p>
-          <p class="col-3 text-center">10 AM - 12 PM</p>
-          <p class="col-3 text-center">4 PM - 6 PM</p>
-        </div>
-        <div class="row justify-content-around color-prmy-txt bs-txt-bold">
-          <p class="col-3 text-center">January 19, 2022</p>
-          <p class="col-3 text-center">10 AM - 12 PM</p>
-          <p class="col-3 text-center">4 PM - 6 PM</p>
-        </div>
-        <div class="row justify-content-around color-prmy-txt bs-txt-bold">
-          <p class="col-3 text-center">Febuary 16, 2022</p>
-          <p class="col-3 text-center">10 AM - 12 PM</p>
-          <p class="col-3 text-center">4 PM - 6 PM</p>
-        </div>
-        <div class="row justify-content-around color-prmy-txt bs-txt-bold">
-          <p class="col-3 text-center">March 16, 2022</p>
-          <p class="col-3 text-center">10 AM - 12 PM</p>
-          <p class="col-3 text-center">4 PM - 6 PM</p>
-        </div>
-        <div class="row justify-content-around color-prmy-txt bs-txt-bold">
-          <p class="col-3 text-center">April 20, 2022</p>
-          <p class="col-3 text-center">10 AM - 12 PM</p>
-          <p class="col-3 text-center">4 PM - 6 PM</p>
-        </div>
-        <div class="row justify-content-around color-prmy-txt bs-txt-bold">
-          <p class="col-3 text-center">May 18, 2022</p>
-          <p class="col-3 text-center">10 AM - 12 PM</p>
-          <p class="col-3 text-center">4 PM - 6 PM</p>
-        </div>
-        <div class="row justify-content-around color-prmy-txt bs-txt-bold">
-          <p class="col-3 text-center">June 15, 2022</p>
-          <p class="col-3 text-center">10 AM - 12 PM</p>
-          <p class="col-3 text-center">4 PM - 6 PM</p>
-        </div>
-        <div class="row justify-content-around color-prmy-txt bs-txt-bold">
-          <p class="col-3 text-center">July 20, 2022</p>
-          <p class="col-3 text-center">10 AM - 12 PM</p>
-          <p class="col-3 text-center">4 PM - 6 PM</p>
-        </div>
-        <div class="row justify-content-around color-prmy-txt bs-txt-bold">
-          <p class="col-3 text-center">August 17, 2022</p>
-          <p class="col-3 text-center">10 AM - 12 PM</p>
-          <p class="col-3 text-center">4 PM - 6 PM</p>
-        </div>
-        <div class="row justify-content-around color-prmy-txt bs-txt-bold">
-          <p class="col-3 text-center">September 21, 2022</p>
-          <p class="col-3 text-center">10 AM - 12 PM</p>
-          <p class="col-3 text-center">4 PM - 6 PM</p>
+        <div class="btn-top-container justify-content-end">
+          <button class="btn-top btn-top-bg--dark">
+            <a class="btn-top-txt" href="#">Top ^</a>
+          </button>
         </div>
       </section>
     </div>
-    <!-- end header container -->
+
     <section class="signup" id="signup">
-      <h2 class="text-header2 color-prmy-txt">Enrollment Form</h2>
-      <p class="signup-text__caption color-prmy-txt">
-        * We Service the Rockland County, NY Area
-      </p>
-      <form
-        action=""
-        class="signup-form bs-margin-15 signup-border"
-        id="client"
-      >
-        <div class="row">
-          <div class="col">
-            <label for="first-name">First Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="first-name"
-              placeholder="First name"
-              required
-            />
-          </div>
-          <div class="col">
-            <label for="last-name">Last Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="last-name"
-              placeholder="Last name"
-              required
-            />
-          </div>
+      <div class="signup-container">
+        <div class="signup-background">
+          <h2 class="signup-header text-light">Enrollment Form</h2>
+          <p class="signup-text__caption text-light">
+            * We Service the Rockland County, NY Area
+          </p>
+          <form
+            action=""
+            class="signup-form bs-margin-15 signup-border text-light"
+            id="client"
+          >
+            <div class="row">
+              <div class="col">
+                <label for="first-name">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="first-name"
+                  placeholder="First name"
+                  required
+                />
+              </div>
+              <div class="col">
+                <label for="last-name">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="last-name"
+                  placeholder="Last name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress"
+                required
+                placeholder="1234 Main St"
+              />
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress2"
+                placeholder="Apartment, studio, or floor"
+              />
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputCity"
+                  placeholder="City"
+                  required
+                />
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Select State...</option>
+                  <option>NY</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputZip"
+                  placeholder="Zip Code"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="your@email.com"
+                />
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputEmail4">Phone Number</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="999-999-9999"
+                />
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary1 btn-text">
+              Sign up
+            </button>
+          </form>
         </div>
-        <div class="form-group">
-          <label for="inputAddress">Address</label>
-          <input
-            type="text"
-            class="form-control"
-            id="inputAddress"
-            required
-            placeholder="1234 Main St"
-          />
-        </div>
-        <div class="form-group">
-          <label for="inputAddress2">Address 2</label>
-          <input
-            type="text"
-            class="form-control"
-            id="inputAddress2"
-            placeholder="Apartment, studio, or floor"
-          />
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputCity">City</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputCity"
-              placeholder="City"
-              required
-            />
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputState">State</label>
-            <select id="inputState" class="form-control">
-              <option selected>Select State...</option>
-              <option>NY</option>
-            </select>
-          </div>
-          <div class="form-group col-md-2">
-            <label for="inputZip">Zip</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputZip"
-              placeholder="Zip Code"
-              required
-            />
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputEmail4">Email</label>
-            <input
-              type="email"
-              class="form-control"
-              id="inputEmail4"
-              placeholder="your@email.com"
-            />
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputEmail4">Phone Number</label>
-            <input
-              type="tel"
-              class="form-control"
-              id="inputEmail4"
-              placeholder="999-999-9999"
-            />
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary1 btn-text">Sign up</button>
-      </form>
-    </section>
-    <section class="volunteer" id="volunteer">
-      <h2 class="text-header2 color-prmy-txt">Volunteer</h2>
-      <p class="signup-text__caption color-prmy-txt">
-        * We Service the Rockland County, NY Area
-      </p>
-      <form
-        action=""
-        class="volunteer-form bs-margin-15 signup-border"
-        id="client"
-      >
-        <div class="row">
-          <div class="col">
-            <label for="first-name">First Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="first-name"
-              placeholder="First name"
-              required
-            />
-          </div>
-          <div class="col">
-            <label for="last-name">Last Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="last-name"
-              placeholder="Last name"
-              required
-            />
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputEmail4">Email</label>
-            <input
-              type="email"
-              class="form-control"
-              id="inputEmail4"
-              placeholder="your@email.com"
-            />
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputEmail4">Phone Number</label>
-            <input
-              type="tel"
-              class="form-control"
-              id="inputEmail4"
-              placeholder="999-999-9999"
-            />
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary1 btn-text">
-          Volunteer
+      </div>
+      <div class="btn-top-container justify-content-end">
+        <button class="btn-top btn-top-bg--dark">
+          <a class="btn-top-txt" href="#">Top ^</a>
         </button>
-      </form>
+      </div>
     </section>
+
+    <section class="volunteer" id="volunteer">
+      <div class="volunteer-container">
+        <div class="volunteer-background">
+          <h2 class="volunteer-header text-light">Volunteer</h2>
+          <p class="signup-text__caption text-light">
+            * We Service the Rockland County, NY Area
+          </p>
+          <form
+            action=""
+            class="volunteer-form bs-margin-15 signup-border text-light"
+            id="client"
+          >
+            <div class="row">
+              <div class="col">
+                <label for="first-name">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="first-name"
+                  placeholder="First name"
+                  required
+                />
+              </div>
+              <div class="col">
+                <label for="last-name">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="last-name"
+                  placeholder="Last name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="your@email.com"
+                />
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputEmail4">Phone Number</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="999-999-9999"
+                />
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary1 btn-text">
+              Volunteer
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="btn-top-container justify-content-end">
+        <button class="btn-top btn-top-bg--dark">
+          <a class="btn-top-txt" href="#">Top ^</a>
+        </button>
+      </div>
+    </section>
+
     <footer class="footer" id="footer">
-      <h2 class="footer-header color-prmy-txt">
-        Saint Joseph - Saint Boniface
-      </h2>
-      <h2 class="footer-name color-prmy-txt">Daily Bread Food Pantry</h2>
-      <p class="footer-address color-prmy-txt bs-txt-bold">
-        245 North Main Street, Spring Valley, NY 10977
-      </p>
-      <p class="footer-tel color-prmy-txt bs-txt-bold">
-        Phone: (845) 356-0311 - Fax: (845) 352-8126
-      </p>
       <div class="footer-container">
-        <a
-          href="mailto:admin@stjosephspringvalley.org"
-          class="footer-email bs-txt-bold"
-          ><span>E-Mail:</span> Daily Bread Food Pantry</a
-        >
+        <div class="footer-background">
+          <h2 class="footer-header text-light">
+            Saint Joseph - Saint Boniface
+          </h2>
+          <h2 class="footer-name text-light">Daily Bread Food Pantry</h2>
+          <p class="footer-address text-light bs-txt-bold">
+            245 North Main Street, Spring Valley, NY 10977
+          </p>
+          <p class="footer-tel text-light bs-txt-bold">
+            Phone: (845) 356-0311 - Fax: (845) 352-8126
+          </p>
+          <div class="footer-wrapper">
+            <a
+              href="mailto:admin@stjosephspringvalley.org"
+              class="footer-email bs-txt-bold"
+              ><span>E-Mail:</span> Daily Bread Food Pantry</a
+            >
+          </div>
+        </div>
       </div>
     </footer>
     <!-- bootstrap files -->

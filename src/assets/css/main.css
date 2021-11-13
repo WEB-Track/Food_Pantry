@@ -10398,7 +10398,7 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 10px;
+  padding: 14.18px 0 30px;
 }
 
 .mission-statement-container {
@@ -10433,11 +10433,11 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 10px;
+  padding: 30px 10px 29px;
 }
 
 .pickup-container {
-  padding: 45px 8%;
+  padding: 45px 8% 22px;
 }
 
 .pickup-header {
@@ -10461,11 +10461,11 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 10px;
+  padding: 30px 10px 29px;
 }
 
 .signup-container {
-  padding: 45px 8%;
+  padding: 45px 8% 22px;
 }
 
 .signup-header {
@@ -10506,11 +10506,11 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 10px;
+  padding: 30px 10px 29px;
 }
 
 .volunteer-container {
-  padding: 45px 8%;
+  padding: 45px 8% 22px;
 }
 
 .volunteer-form {
@@ -10612,7 +10612,7 @@ header {
 }
 
 .btn-top-bg--light {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 0, 0.5);
 }
 
 .btn-top-bg--dark {
@@ -10642,7 +10642,6 @@ header {
   margin-top: 6px;
   margin-bottom: 6px;
 }
-
 .navbar-border {
   border-radius: 25px 25px 25px 25px;
   -webkit-border-radius: 25px 25px 25px 25px;
@@ -10681,6 +10680,11 @@ header {
 .text-bold:hover {
   font-weight: bold;
   color: #f5f4f5;
+}
+
+.module-max-width {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=main.css.map */

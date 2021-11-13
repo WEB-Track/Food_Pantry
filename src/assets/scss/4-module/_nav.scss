@@ -9,6 +9,10 @@
   padding: 6px 2%;
   margin-top: 6px;
   margin-bottom: 6px;
+
+  @media (max-width: 768px) {
+    // background-color: transparent;
+  }
 }
 
 .navbar-border {
