@@ -10642,7 +10642,6 @@ header {
   margin-top: 6px;
   margin-bottom: 6px;
 }
-
 .navbar-border {
   border-radius: 25px 25px 25px 25px;
   -webkit-border-radius: 25px 25px 25px 25px;
@@ -10681,6 +10680,11 @@ header {
 .text-bold:hover {
   font-weight: bold;
   color: #f5f4f5;
+}
+
+.module-max-width {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=main.css.map */

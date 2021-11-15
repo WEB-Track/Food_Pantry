@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
     "watch": "sass --watch src/assets/scss:src/assets/css",
     "sass": "sass src/assets/scss:src/assets/css",
     "md-dist": "mkdir dist",
