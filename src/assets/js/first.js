@@ -1,0 +1,2 @@
+//
+const pickupDates = window.location;
