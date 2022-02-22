@@ -13,3 +13,24 @@
     font-size: 1.5rem;
   }
 }
+
+.header-language-list {
+  width: 90px;
+  padding: auto;
+  border: none;
+  border-radius: 4px;
+  // background-color: #f1f1f1;
+  height: 25px;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+
+.header-language {
+  display: flex;
+}
+
+.header-language-header {
+  color: var(--light);
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}

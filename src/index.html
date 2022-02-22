@@ -89,6 +89,20 @@
             </div>
           </nav>
         </div>
+        <div class="header-language justify-content-center">
+          <form>
+            <span class="header-language-header">Language: </span>
+            <select
+              class="header-language-list"
+              id="language"
+              name="language"
+              onchange="langSwitch"
+            >
+              <option value="en">English</option>
+              <option value="sp">Spanish</option>
+            </select>
+          </form>
+        </div>
       </div>
     </header>
 
@@ -147,9 +161,9 @@
     </section>
     <section class="mission" id="mission">
       <div class="module-max-width">
-        <h3 class="mission-header text-header2 text-light">
+        <h2 class="mission-header text-header2 text-light">
           Mission Statement
-        </h3>
+        </h2>
         <div class="mission-statement-container">
           <p class="mission-statement text-light">
             We parishioners of Saint Joseph-Saint Boniface recognizing that, God
@@ -276,105 +290,44 @@
             <p class="signup-text__caption text-light">
               * We Service the Rockland County, NY Area
             </p>
-            <form
-              action=""
-              class="signup-form bs-margin-15 signup-border text-light"
-              id="client"
-            >
-              <div class="row">
-                <div class="col">
-                  <label for="first-name">First Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="first-name"
-                    placeholder="First name"
-                    required
-                  />
-                </div>
-                <div class="col">
-                  <label for="last-name">Last Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="last-name"
-                    placeholder="Last name"
-                    required
-                  />
-                </div>
+            <p class="signup-form__text text-light">
+              Below are the forms needed to enroll:
+            </p>
+            <div class="signup-text-container">
+              <a
+                href="./assets/images/Client_Intake_Form.pdf"
+                class="signup-link__text popup-link"
+                title="Client Intake Form"
+                >Client Intake Form</a
+              >
+              <div class="popup">
+                <iframe
+                  src="./assets/images/Client_Intake_Form.pdf"
+                  title="Volunteer Form"
+                  class="popup-frame"
+                ></iframe>
               </div>
-              <div class="form-group">
-                <label for="inputAddress">Address</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="inputAddress"
-                  required
-                  placeholder="1234 Main St"
-                />
+              <span class="signup-download"> ( Click to Download )</span>
+            </div>
+            <div class="signup-text-container">
+              <a
+                href="./assets/images/Self_Attestation_3_English.pdf"
+                title="English Self Attestation Form"
+                class="signup-link__text popup-link"
+                >Self Attestation English</a
+              >
+              <div class="popup">
+                <iframe
+                  src="./assets/images/Self_Attestation_3_English.pdf"
+                  title="Volunteer Form"
+                  class="popup-frame"
+                ></iframe>
               </div>
-              <div class="form-group">
-                <label for="inputAddress2">Address 2</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="inputAddress2"
-                  placeholder="Apartment, studio, or floor"
-                />
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputCity">City</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputCity"
-                    placeholder="City"
-                    required
-                  />
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputState">State</label>
-                  <select id="inputState" class="form-control">
-                    <option selected>Select State...</option>
-                    <option>NY</option>
-                  </select>
-                </div>
-                <div class="form-group col-md-2">
-                  <label for="inputZip">Zip</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputZip"
-                    placeholder="Zip Code"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputEmail4">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="inputEmail4"
-                    placeholder="your@email.com"
-                  />
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputEmail4">Phone Number</label>
-                  <input
-                    type="tel"
-                    class="form-control"
-                    id="inputEmail4"
-                    placeholder="999-999-9999"
-                  />
-                </div>
-              </div>
-              <button type="submit" class="btn btn-primary1 btn-text">
-                Sign up
-              </button>
-            </form>
+              <span class="signup-download"> ( Click to Download )</span>
+            </div>
+            <p class="signup-form__text text-light">
+              Fill out both forms and call 845-356-0311 to make an appointment.
+            </p>
           </div>
         </div>
         <div class="btn-top-container justify-content-end">
@@ -393,57 +346,28 @@
             <p class="signup-text__caption text-light">
               * We Service the Rockland County, NY Area
             </p>
-            <form
-              action=""
-              class="volunteer-form bs-margin-15 signup-border text-light"
-              id="client"
-            >
-              <div class="row">
-                <div class="col">
-                  <label for="first-name">First Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="first-name"
-                    placeholder="First name"
-                    required
-                  />
-                </div>
-                <div class="col">
-                  <label for="last-name">Last Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="last-name"
-                    placeholder="Last name"
-                    required
-                  />
-                </div>
+            <p class="signup-form__text text-light">
+              Below is the form needed to volunteer:
+            </p>
+            <div class="signup-text-container">
+              <a
+                href="./assets/images/pantry_volunteer_form.pdf"
+                title="Volunteer Form"
+                class="signup-link__text popup-link"
+                >Volunteer Form</a
+              >
+              <div class="popup">
+                <iframe
+                  src="./assets/images/pantry_volunteer_form.pdf"
+                  title="Volunteer Form"
+                  class="popup-frame"
+                ></iframe>
               </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputEmail4">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="inputEmail4"
-                    placeholder="your@email.com"
-                  />
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputEmail4">Phone Number</label>
-                  <input
-                    type="tel"
-                    class="form-control"
-                    id="inputEmail4"
-                    placeholder="999-999-9999"
-                  />
-                </div>
-              </div>
-              <button type="submit" class="btn btn-primary1 btn-text">
-                Volunteer
-              </button>
-            </form>
+              <span class="signup-download"> ( Click to Download )</span>
+            </div>
+            <p class="signup-form__text text-light">
+              Fill out the form and fax or e-mail.
+            </p>
           </div>
         </div>
         <div class="btn-top-container justify-content-end">

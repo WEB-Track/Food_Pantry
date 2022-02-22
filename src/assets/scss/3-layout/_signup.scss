@@ -34,13 +34,35 @@
   border-radius: 10px;
 }
 
-.signup-form {
-  font-weight: 700;
+.signup-text-container {
+  text-align: center;
 }
 
 .signup-text__caption {
   margin: 20px 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
+}
+
+.signup-form__text {
+  margin: 20px 0;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.signup-link__text {
+  color: var(--light);
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+}
+
+.signup-link__text:hover {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.signup-download {
+  color: var(--light);
+  font-size: 1rem;
 }
