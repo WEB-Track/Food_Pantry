@@ -21,6 +21,23 @@
         <h1 class="header-main text-center text-light">
           SJSB Daily Bread Ministry Food Pantry
         </h1>
+        <!-- <div class="header-language justify-content-center">
+          <div class="header-lang-name-header">
+            <h2 class="header-language-header" id="language" name="language">
+              Language:
+            </h2>
+          </div>
+          <div class="header-lang-name header-lang-selected">
+            <a href="index.html" class="swtch header-lang-swtch english"
+              >English</a
+            >
+          </div>
+          <div class="header-lang-name">
+            <a href="index2.html" class="swtch spanish" title="Spanish"
+              >Spanish</a
+            >
+          </div>
+        </div> -->
         <div class="navbar-wrapper justify-content-center">
           <nav
             class="navbar navbar-expand-lg navbar-text-color navbar-background navbar-border"
@@ -88,20 +105,6 @@
               </ul>
             </div>
           </nav>
-        </div>
-        <div class="header-language justify-content-center">
-          <form>
-            <span class="header-language-header">Language: </span>
-            <select
-              class="header-language-list"
-              id="language"
-              name="language"
-              onchange="langSwitch"
-            >
-              <option value="en">English</option>
-              <option value="sp">Spanish</option>
-            </select>
-          </form>
         </div>
       </div>
     </header>
@@ -206,70 +209,12 @@
           <div class="pickup-container">
             <div class="pickup-background">
               <h2 class="pickup-header text-light">Pick-up time and dates</h2>
-              <div class="row justify-content-around text-light bs-txt-bold">
+              <div class="row justify-content-around text-light bs-txt-bold"">
                 <p class="col-3 text-center">Date</p>
                 <p class="col-3 text-center">Morning</p>
                 <p class="col-3 text-center">Afternoon</p>
               </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">October 20, 2021</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">November 17, 2021</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">December 15, 2021</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">January 19, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">Febuary 16, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">March 16, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">April 20, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">May 18, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">June 15, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">July 20, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">August 17, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">September 21, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
+              <div id="pickup_row">
               </div>
             </div>
           </div>
@@ -281,7 +226,6 @@
         </div>
       </section>
     </div>
-
     <section class="signup" id="signup">
       <div class="module-max-width">
         <div class="signup-container">

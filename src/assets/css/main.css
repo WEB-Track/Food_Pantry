@@ -10331,6 +10331,26 @@ header {
   letter-spacing: 2px;
 }
 
+.header-lang-name {
+  height: 30px;
+  width: 70px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.header-lang-selected {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-lang-swtch {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.header-lang-selected:hover {
+  background-color: var(--light2);
+}
+
 .hero {
   background: url(../images/helping.png) no-repeat fixed center;
   background-size: cover;
@@ -10709,7 +10729,7 @@ header {
 .popup:hover {
   display: block;
   position: relative;
-  z-index: 100;
+  z-ind0ex: 100;
 }
 
 .popup-frame {

@@ -34,3 +34,27 @@
   font-size: 1.1rem;
   letter-spacing: 2px;
 }
+
+.header-lang-name-header {
+}
+
+.header-lang-name {
+  height: 30px;
+  width: 70px;
+  margin: 0 5px;
+  text-align: center;
+  // color: var(--secondary);
+}
+
+.header-lang-selected {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-lang-swtch {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.header-lang-selected:hover {
+  background-color: var(--light2);
+}
