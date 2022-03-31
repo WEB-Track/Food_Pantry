@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daily Bread Ministry Food Pantry</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/src/assets/images/favicon.ico"> -->
     <script
       type="module"
       src="./assets/secondparty/bootstrap/jquery.js"
@@ -18,7 +19,7 @@
   <body id="home">
     <header class="header" id="header">
       <div class="module-max-width">
-        <h1 class="header-main text-center text-light">
+        <h1 class="header-main text-center text-light" title="SJSB Daily Bread Ministry Food Pantry">
           SJSB Daily Bread Ministry Food Pantry
         </h1>
         <!-- <div class="header-language justify-content-center">
@@ -56,7 +57,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link navbar-text-color" href="#">Home</a>
+                  <a class="nav-link navbar-text-color" href="#" title="Home">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -65,7 +66,7 @@
                     id="navbarDropdownMenuLink"
                     role="button"
                     data-toggle="dropdown"
-                    aria-expanded="false"
+                    aria-expanded="false" title="About"
                   >
                     About
                   </a>
@@ -73,32 +74,32 @@
                     class="dropdown-menu navbar-background"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
-                    <a class="dropdown-item navbar-text-color" href="#about"
+                    <a class="dropdown-item navbar-text-color" href="#about" title="Some History"
                       >Some History</a
                     >
-                    <a class="dropdown-item navbar-text-color" href="#pantry"
+                    <a class="dropdown-item navbar-text-color" href="#pantry" title="Pantry History"
                       >Pantry History</a
                     >
-                    <a class="dropdown-item navbar-text-color" href="#mission"
+                    <a class="dropdown-item navbar-text-color" href="#mission" title="Mission"
                       >Mission</a
                     >
-                    <a class="dropdown-item navbar-text-color" href="#vision"
+                    <a class="dropdown-item navbar-text-color" href="#vision" title="Vision"
                       >Vision</a
                     >
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navbar-text-color" href="#pickup"
+                  <a class="nav-link navbar-text-color" href="#pickup" title="Distribution Dates"
                     >Distribution Dates</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navbar-text-color" href="#signup"
+                  <a class="nav-link navbar-text-color" href="#signup" title="Enrollment"
                     >Enrollment</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navbar-text-color" href="#volunteer"
+                  <a class="nav-link navbar-text-color" href="#volunteer" title="Volunteer"
                     >Volunteer</a
                   >
                 </li>
@@ -108,7 +109,6 @@
         </div>
       </div>
     </header>
-
     <section class="hero" id="hero">
       <div class="module-max-width">
         <div class="hero-wrapper">
@@ -242,23 +242,23 @@
                 href="./assets/images/Client_Intake_Form.pdf"
                 class="signup-link__text popup-link"
                 title="Client Intake Form"
-                >Client Intake Form</a
+                ><button type="button" class="signup_button">Client Intake Form</button></a
               >
               <div class="popup">
                 <iframe
-                  src="./assets/images/Client_Intake_Form.pdf"
-                  title="Volunteer Form"
-                  class="popup-frame"
+                src="./assets/images/Client_Intake_Form.pdf"
+                title="Volunteer Form"
+                class="popup-frame"
                 ></iframe>
               </div>
-              <span class="signup-download"> ( Click to Download )</span>
+              
             </div>
             <div class="signup-text-container">
               <a
                 href="./assets/images/Self_Attestation_3_English.pdf"
                 title="English Self Attestation Form"
                 class="signup-link__text popup-link"
-                >Self Attestation English</a
+                ><button type="button" class="signup_button">Self Attestation English</button></a
               >
               <div class="popup">
                 <iframe
@@ -267,7 +267,6 @@
                   class="popup-frame"
                 ></iframe>
               </div>
-              <span class="signup-download"> ( Click to Download )</span>
             </div>
             <p class="signup-form__text text-light">
               Fill out both forms and call 845-356-0311 to make an appointment.
@@ -296,9 +295,8 @@
             <div class="signup-text-container">
               <a
                 href="./assets/images/pantry_volunteer_form.pdf"
-                title="Volunteer Form"
-                class="signup-link__text popup-link"
-                >Volunteer Form</a
+                title="Volunteer Form" class="signup-link__text popup-link"
+                ><button type="button" class="signup_button">Volunteer Form</button></a
               >
               <div class="popup">
                 <iframe
@@ -307,7 +305,6 @@
                   class="popup-frame"
                 ></iframe>
               </div>
-              <span class="signup-download"> ( Click to Download )</span>
             </div>
             <p class="signup-form__text text-light">
               Fill out the form and fax or e-mail.

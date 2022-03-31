@@ -52,14 +52,24 @@
 }
 
 .signup-link__text {
-  color: var(--light);
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 3px;
   font-size: 1.2rem;
 }
 
-.signup-link__text:hover {
-  color: rgba(255, 255, 255, 0.75) !important;
+.signup_button {
+  border: none;
+  color: rgb(27, 69, 196);
+  font-weight: 700;
+  background: rgba(256, 256, 256, 0.7);
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.signup-link__text:hover .signup_button:hover {
+  border: 2px solid rgba(255, 255, 255, 0.75) !important;
+  background-color: transparent;
 }
 
 .signup-download {
