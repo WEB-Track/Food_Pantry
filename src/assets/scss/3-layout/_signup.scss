@@ -34,13 +34,45 @@
   border-radius: 10px;
 }
 
-.signup-form {
-  font-weight: 700;
+.signup-text-container {
+  text-align: center;
 }
 
 .signup-text__caption {
   margin: 20px 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
+}
+
+.signup-form__text {
+  margin: 20px 0;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.signup-link__text {
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+}
+
+.signup_button {
+  border: none;
+  color: rgb(27, 69, 196);
+  font-weight: 700;
+  background: rgba(256, 256, 256, 0.7);
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.signup-link__text:hover .signup_button:hover {
+  border: 2px solid rgba(255, 255, 255, 0.75) !important;
+  background-color: transparent;
+}
+
+.signup-download {
+  color: var(--light);
+  font-size: 1rem;
 }

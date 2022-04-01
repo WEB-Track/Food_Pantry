@@ -13,3 +13,48 @@
     font-size: 1.5rem;
   }
 }
+
+.header-language-list {
+  width: 90px;
+  padding: auto;
+  border: none;
+  border-radius: 4px;
+  // background-color: #f1f1f1;
+  height: 25px;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+
+.header-language {
+  display: flex;
+}
+
+.header-language-header {
+  color: var(--light);
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+.header-lang-name-header {
+}
+
+.header-lang-name {
+  height: 30px;
+  width: 70px;
+  margin: 0 5px;
+  text-align: center;
+  // color: var(--secondary);
+}
+
+.header-lang-selected {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-lang-swtch {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.header-lang-selected:hover {
+  background-color: var(--light2);
+}

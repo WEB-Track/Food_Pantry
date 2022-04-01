@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daily Bread Ministry Food Pantry</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/src/assets/images/favicon.ico"> -->
     <script
       type="module"
       src="./assets/secondparty/bootstrap/jquery.js"
@@ -14,22 +15,34 @@
       src="./assets/secondparty/bootstrap/bootstrap.bundle.js"
     ></script>
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   </head>
   <body id="home">
     <header class="header" id="header">
       <div class="module-max-width">
-        <h1 class="header-main text-center text-light">
+        <h1 class="header-main text-center text-light" title="SJSB Daily Bread Ministry Food Pantry">
           SJSB Daily Bread Ministry Food Pantry
         </h1>
+        <!-- <div class="header-language justify-content-center">
+          <div class="header-lang-name-header">
+            <h2 class="header-language-header" id="language" name="language">
+              Language:
+            </h2>
+          </div>
+          <div class="header-lang-name header-lang-selected">
+            <a href="index.html" class="swtch header-lang-swtch english"
+              >English</a
+            >
+          </div>
+          <div class="header-lang-name">
+            <a href="index2.html" class="swtch spanish" title="Spanish"
+              >Spanish</a
+            >
+          </div>
+        </div> -->
         <div class="navbar-wrapper justify-content-center">
           <nav
-            class="
-              navbar
-              navbar-expand-lg
-              navbar-text-color
-              navbar-background
-              navbar-border
-            "
+            class="navbar navbar-expand-lg navbar-text-color navbar-background navbar-border"
           >
             <button
               class="navbar-toggler"
@@ -40,12 +53,12 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <i class="bi bi-list text-light navbar-menu-icon"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link navbar-text-color" href="#">Home</a>
+                  <a class="nav-link navbar-text-color" href="#" title="Home">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -54,7 +67,7 @@
                     id="navbarDropdownMenuLink"
                     role="button"
                     data-toggle="dropdown"
-                    aria-expanded="false"
+                    aria-expanded="false" title="About"
                   >
                     About
                   </a>
@@ -62,32 +75,32 @@
                     class="dropdown-menu navbar-background"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
-                    <a class="dropdown-item navbar-text-color" href="#about"
+                    <a class="dropdown-item navbar-text-color" href="#about" title="Some History"
                       >Some History</a
                     >
-                    <a class="dropdown-item navbar-text-color" href="#pantry"
+                    <a class="dropdown-item navbar-text-color" href="#pantry" title="Pantry History"
                       >Pantry History</a
                     >
-                    <a class="dropdown-item navbar-text-color" href="#mission"
+                    <a class="dropdown-item navbar-text-color" href="#mission" title="Mission"
                       >Mission</a
                     >
-                    <a class="dropdown-item navbar-text-color" href="#vision"
+                    <a class="dropdown-item navbar-text-color" href="#vision" title="Vision"
                       >Vision</a
                     >
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navbar-text-color" href="#pickup"
+                  <a class="nav-link navbar-text-color" href="#pickup" title="Distribution Dates"
                     >Distribution Dates</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navbar-text-color" href="#signup"
+                  <a class="nav-link navbar-text-color" href="#signup" title="Enrollment"
                     >Enrollment</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navbar-text-color" href="#volunteer"
+                  <a class="nav-link navbar-text-color" href="#volunteer" title="Volunteer"
                     >Volunteer</a
                   >
                 </li>
@@ -97,7 +110,6 @@
         </div>
       </div>
     </header>
-
     <section class="hero" id="hero">
       <div class="module-max-width">
         <div class="hero-wrapper">
@@ -153,9 +165,9 @@
     </section>
     <section class="mission" id="mission">
       <div class="module-max-width">
-        <h3 class="mission-header text-header2 text-light">
+        <h2 class="mission-header text-header2 text-light">
           Mission Statement
-        </h3>
+        </h2>
         <div class="mission-statement-container">
           <p class="mission-statement text-light">
             We parishioners of Saint Joseph-Saint Boniface recognizing that, God
@@ -198,70 +210,12 @@
           <div class="pickup-container">
             <div class="pickup-background">
               <h2 class="pickup-header text-light">Pick-up time and dates</h2>
-              <div class="row justify-content-around text-light bs-txt-bold">
+              <div class="row justify-content-around text-light bs-txt-bold"">
                 <p class="col-3 text-center">Date</p>
                 <p class="col-3 text-center">Morning</p>
-                <p class="col-3 text-center">After Noon</p>
+                <p class="col-3 text-center">Afternoon</p>
               </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">October 20, 2021</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">November 17, 2021</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">December 15, 2021</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">January 19, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">Febuary 16, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">March 16, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">April 20, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">May 18, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">June 15, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">July 20, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">August 17, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
-              </div>
-              <div class="row justify-content-around text-light bs-txt-bold">
-                <p class="col-3 text-center">September 21, 2022</p>
-                <p class="col-3 text-center">10 AM - 12 PM</p>
-                <p class="col-3 text-center">4 PM - 6 PM</p>
+              <div id="pickup_row">
               </div>
             </div>
           </div>
@@ -273,7 +227,6 @@
         </div>
       </section>
     </div>
-
     <section class="signup" id="signup">
       <div class="module-max-width">
         <div class="signup-container">
@@ -282,105 +235,43 @@
             <p class="signup-text__caption text-light">
               * We Service the Rockland County, NY Area
             </p>
-            <form
-              action=""
-              class="signup-form bs-margin-15 signup-border text-light"
-              id="client"
-            >
-              <div class="row">
-                <div class="col">
-                  <label for="first-name">First Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="first-name"
-                    placeholder="First name"
-                    required
-                  />
-                </div>
-                <div class="col">
-                  <label for="last-name">Last Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="last-name"
-                    placeholder="Last name"
-                    required
-                  />
-                </div>
+            <p class="signup-form__text text-light">
+              Below are the forms needed to enroll:
+            </p>
+            <div class="signup-text-container">
+              <a
+                href="./assets/images/Client_Intake_Form.pdf"
+                class="signup-link__text popup-link"
+                title="Client Intake Form"
+                ><button type="button" class="signup_button">Client Intake Form</button></a
+              >
+              <div class="popup">
+                <iframe
+                src="./assets/images/Client_Intake_Form.pdf"
+                title="Volunteer Form"
+                class="popup-frame"
+                ></iframe>
               </div>
-              <div class="form-group">
-                <label for="inputAddress">Address</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="inputAddress"
-                  required
-                  placeholder="1234 Main St"
-                />
+              
+            </div>
+            <div class="signup-text-container">
+              <a
+                href="./assets/images/Self_Attestation_3_English.pdf"
+                title="English Self Attestation Form"
+                class="signup-link__text popup-link"
+                ><button type="button" class="signup_button">Self Attestation English</button></a
+              >
+              <div class="popup">
+                <iframe
+                  src="./assets/images/Self_Attestation_3_English.pdf"
+                  title="Volunteer Form"
+                  class="popup-frame"
+                ></iframe>
               </div>
-              <div class="form-group">
-                <label for="inputAddress2">Address 2</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="inputAddress2"
-                  placeholder="Apartment, studio, or floor"
-                />
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputCity">City</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputCity"
-                    placeholder="City"
-                    required
-                  />
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputState">State</label>
-                  <select id="inputState" class="form-control">
-                    <option selected>Select State...</option>
-                    <option>NY</option>
-                  </select>
-                </div>
-                <div class="form-group col-md-2">
-                  <label for="inputZip">Zip</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputZip"
-                    placeholder="Zip Code"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputEmail4">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="inputEmail4"
-                    placeholder="your@email.com"
-                  />
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputEmail4">Phone Number</label>
-                  <input
-                    type="tel"
-                    class="form-control"
-                    id="inputEmail4"
-                    placeholder="999-999-9999"
-                  />
-                </div>
-              </div>
-              <button type="submit" class="btn btn-primary1 btn-text">
-                Sign up
-              </button>
-            </form>
+            </div>
+            <p class="signup-form__text text-light">
+              Fill out both forms and call 845-356-0311 to make an appointment.
+            </p>
           </div>
         </div>
         <div class="btn-top-container justify-content-end">
@@ -399,57 +290,26 @@
             <p class="signup-text__caption text-light">
               * We Service the Rockland County, NY Area
             </p>
-            <form
-              action=""
-              class="volunteer-form bs-margin-15 signup-border text-light"
-              id="client"
-            >
-              <div class="row">
-                <div class="col">
-                  <label for="first-name">First Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="first-name"
-                    placeholder="First name"
-                    required
-                  />
-                </div>
-                <div class="col">
-                  <label for="last-name">Last Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="last-name"
-                    placeholder="Last name"
-                    required
-                  />
-                </div>
+            <p class="signup-form__text text-light">
+              Below is the form needed to volunteer:
+            </p>
+            <div class="signup-text-container">
+              <a
+                href="./assets/images/pantry_volunteer_form.pdf"
+                title="Volunteer Form" class="signup-link__text popup-link"
+                ><button type="button" class="signup_button">Volunteer Form</button></a
+              >
+              <div class="popup">
+                <iframe
+                  src="./assets/images/pantry_volunteer_form.pdf"
+                  title="Volunteer Form"
+                  class="popup-frame"
+                ></iframe>
               </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputEmail4">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="inputEmail4"
-                    placeholder="your@email.com"
-                  />
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputEmail4">Phone Number</label>
-                  <input
-                    type="tel"
-                    class="form-control"
-                    id="inputEmail4"
-                    placeholder="999-999-9999"
-                  />
-                </div>
-              </div>
-              <button type="submit" class="btn btn-primary1 btn-text">
-                Volunteer
-              </button>
-            </form>
+            </div>
+            <p class="signup-form__text text-light">
+              Fill out the form and fax or e-mail.
+            </p>
           </div>
         </div>
         <div class="btn-top-container justify-content-end">
@@ -486,5 +346,6 @@
       </div>
     </footer>
     <!-- bootstrap files -->
+    <script src="./assets/js/first.js"></script>
   </body>
 </html>
