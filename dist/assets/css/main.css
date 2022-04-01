@@ -10287,6 +10287,10 @@ template {
   display: none;
 }
 
+HTML {
+  scroll-behavior: smooth;
+}
+
 header {
   background-image: url(../images/helping.png);
   background-repeat: no-repeat;
@@ -10309,6 +10313,46 @@ header {
   .header-site {
     font-size: 1.5rem;
   }
+}
+
+.header-language-list {
+  width: 90px;
+  padding: auto;
+  border: none;
+  border-radius: 4px;
+  height: 25px;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+
+.header-language {
+  display: flex;
+}
+
+.header-language-header {
+  color: var(--light);
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+.header-lang-name {
+  height: 30px;
+  width: 70px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.header-lang-selected {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-lang-swtch {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.header-lang-selected:hover {
+  background-color: var(--light2);
 }
 
 .hero {
@@ -10489,15 +10533,47 @@ header {
   border-radius: 10px;
 }
 
-.signup-form {
-  font-weight: 700;
+.signup-text-container {
+  text-align: center;
 }
 
 .signup-text__caption {
   margin: 20px 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
+}
+
+.signup-form__text {
+  margin: 20px 0;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.signup-link__text {
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+}
+
+.signup_button {
+  border: none;
+  color: #1b45c4;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.7);
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.signup-link__text:hover .signup_button:hover {
+  border: 2px solid rgba(255, 255, 255, 0.75) !important;
+  background-color: transparent;
+}
+
+.signup-download {
+  color: var(--light);
+  font-size: 1rem;
 }
 
 .volunteer {
@@ -10620,7 +10696,7 @@ header {
 }
 
 .btn-top:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.89);
 }
 
 .btn-top-txt {
@@ -10656,6 +10732,27 @@ header {
 .navbar-text-color:hover {
   color: var(--light);
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-menu-icon {
+  font-size: 1.6rem;
+}
+
+.popup {
+  display: none;
+  width: 30%;
+}
+
+.popup-link:hover + .popup,
+.popup:hover {
+  display: block;
+  position: relative;
+  z-ind0ex: 100;
+}
+
+.popup-frame {
+  width: 390px;
+  height: 600px;
 }
 
 .text-header2-1 {
