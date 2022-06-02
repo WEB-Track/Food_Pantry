@@ -14,6 +14,7 @@ const monthSet = [
   "November",
   "December",
 ];
+// added date number
 const replacementText = document.getElementById("pickup_row");
 var d = new Date();
 var mon = d.getMonth();
