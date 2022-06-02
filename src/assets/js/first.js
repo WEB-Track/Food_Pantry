@@ -1,4 +1,5 @@
 // set Pickup Dates
+// list months
 const monthSet = [
   "January",
   "February",
